@@ -10,3 +10,10 @@ pip install conda
 conda install -c anaconda yaml
 conda install -c conda-forge cadquery
 conda install -c conda-forge gmsh
+
+use: 
+
+git clone https://github.com/zozitak/cq-gmsh.git <directory>
+cd <directory>
+#define CQ geometry into geometry.py, don't forget to add it into Assemby
+python main.py
